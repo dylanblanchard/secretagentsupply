@@ -47,7 +47,7 @@ p {
 
 .promo {
   background-color: black;
-  background-image: url(.../images/moto.jpeg);
+  background-image: url(../images/moto.jpeg);
   height: 600px;
   background-size: cover;
 
