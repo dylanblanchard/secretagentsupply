@@ -1,3 +1,37 @@
 * {
-  
+  margin: 0;
+  color: white;
+}
+
+body {
+    width: 1200px;
+}
+
+.header {
+ 
+}
+
+.container {
+  display: block;
+  border: 1px solid red;
+}
+
+#topbar {
+  background-color: black;
+}
+
+#topbar .container {
+  display: block;
+}
+
+.promo {
+  background-color: black;
+  background-image: url(/resources/images/moto.jpeg);
+  height: 600px;
+}
+
+#promobox {
+  background-color: black;
+  width: 300px;
+  height: 150px;
 }
