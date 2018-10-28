@@ -1,6 +1,7 @@
 * {
   margin: 0;
   color: white;
+  font-family: helvetica;
 }
 
 html {
@@ -101,6 +102,7 @@ li {
 .products h3 {
   background-color: black;
   font-size: 1rem;
+  text-align: center;
 }
 
 h3 {
@@ -111,4 +113,9 @@ footer {
   height: 200px;
   width: 100%;
   background-color: black;
+}
+
+footer h4 {
+  padding-left: 200px;
+  padding-top: 50px;
 }
