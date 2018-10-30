@@ -5,7 +5,7 @@
 }
 
 html {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 body {
@@ -40,30 +40,38 @@ p {
 }
 
 #topbar img {
-  height: 25px;
+  height: 1.5rem;
   padding-left: 50px;
-  padding-right: 10px;
+  padding-right: 1rem;
 }
 
 .promo {
   background-color: black;
   background-image: url(https://github.com/dylanblanchard/secretagentsupply/blob/master/resources/images/moto.jpeg?raw=true);
-  height: 600px;
+  height: 25rem;
   background-size: cover;
 
 }
 
 #promobox {
   background-color: black;
-  width: 300px;
+  width: 20rem;
   height: 150px;
   padding-top: 35px;
   padding-left: 20px;
+}
 
+#promobox h4 {
+  font-size: 1rem;
+}
+
+#poobutt {
+  padding-top: 9rem;
+  padding-left: 5rem;
 }
 
 nav {
-  background-color: darkred;
+  background-color: firebrick;
 }
 
 ul {
@@ -83,32 +91,42 @@ li {
 }
 
 .products {
-  display: inline-flex;
+  display: flex;
   padding: 40px;
   align-content: center;
-  justify-content: center;
+  justify-content: space-between;
   width: 100%;
 }
 
 .product {
-  padding: 20px;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  width: 30%;
+  display: block;
+  padding-right: 3rem;
 }
 
 .product-image {
-  height: 300px;
-  width: 300px;
+  height: 9rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   border: 4px solid black;
   display: flex;
-  justify-content: center;
   align-items: center;
-  overflow: hidden;
+  justify-content: center;
 }
 
-.products h3 {
+.product-image img {
+  max-width: 8em;
+}
+
+.product-text {
   background-color: black;
   font-size: 1rem;
   text-align: center;
+  padding: .5rem;
 }
+
 
 #locations {
   display: inline-flex;
@@ -122,22 +140,31 @@ li {
 
 .lochours {
   width: 300px;
-
-
+  padding-bottom: 4rem;
 }
 
-h3 {
+.loctop {
+  padding-left: 2rem;
   background-color: black;
-  padding-left: 20px;
+}
+
+.loctop h3 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.bottom {
+  
 }
 
 footer {
-  height: 200px;
+  height: 5rem;
   width: 100%;
   background-color: black;
+  text-align: left;
+  padding-left: 6rem;
 }
 
 footer h4 {
-  padding-left: 200px;
-  padding-top: 50px;
+  padding-top: 40px;
 }
