@@ -163,19 +163,17 @@ li {
   padding-bottom: 1rem;
 }
 
-.bottom {}
-
 footer {
   height: 5rem;
   width: 100%;
   background-color: black;
   text-align: left;
   padding-left: 6rem;
-
 }
 
 footer .container {
   padding-top: 40px;
+
 }
 
 @media only screen and (max-width: 1024px) {
