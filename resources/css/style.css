@@ -174,7 +174,7 @@ footer {
 
 }
 
-footer h4 {
+footer .container {
   padding-top: 40px;
 }
 
@@ -191,14 +191,14 @@ footer h4 {
     display: flex;
   }
 
-   #glasses { 
-  display:none;
-}
-  
+  #glasses {
+    display: none;
+  }
+
   .product {
     width: 47%
   }
-  
+
   .lochours {
     width: 35%;
     justify-content: space-between;
@@ -210,13 +210,20 @@ footer h4 {
     font-size: .77rem;
   }
 
+  #poobutt {
+    padding: 10rem 0 0 0;
+
+  }
+
   .promo {
     height: 15rem;
+
   }
 
   #promobox {
     height: 5rem;
     width: 100%;
+    padding: 0;
   }
 
   #promobox h4 {
@@ -237,8 +244,35 @@ footer h4 {
   nav .mobile-nav {
     display: flex;
   }
-  
-  #glasses { 
-  display:none;
-}
+
+  #glasses,
+  #watch {
+    display: none;
+  }
+
+  .product {
+    width: 90%;
+  }
+
+  #locations {
+    display: block;
+  }
+
+  .lochours {
+    width: 90%;
+    padding-top: .5rem;
+  }
+
+  footer {
+    padding 5em;
+    margin-top: 12rem;
+  }
+
+  footer .container {
+    text-align: center;
+    padding: 0;
+    padding-top: 2rem;
+  }
+
+
 }
